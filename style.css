@@ -1,0 +1,129 @@
+/* Diseño general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f0f8;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #563568;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    font-size: 38px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Menú de navegación */
+nav {
+    background-color: #8b6ba8;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffe59d;
+}
+
+/* Contenido principal */
+article {
+    background-color: white;
+    width: 80%;
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px #cccccc;
+}
+
+/* Títulos */
+h2 {
+    color: #70458a;
+    border-bottom: 2px solid #d7c1e8;
+    padding-bottom: 8px;
+}
+
+/* Imágenes */
+img {
+    width: 150px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 8px;
+}
+
+/* Video */
+video {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+
+/* Párrafos y lista */
+p {
+    line-height: 1.7;
+}
+
+li {
+    margin-bottom: 12px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #563568;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #ffe59d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Adaptación para celulares */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    article {
+        width: auto;
+        margin: 15px;
+        padding: 15px;
+    }
+
+    img {
+        max-width: 40%;
+        height: auto;
+    }
+}
